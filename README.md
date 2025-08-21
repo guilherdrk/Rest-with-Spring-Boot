@@ -22,6 +22,7 @@ Qualidade e Testes → Testes unitários e de integração com JUnit 5, Mockito,
 Documentação Automatizada → Swagger (OpenAPI) para documentação clara e acessível.
 
 🛠️ Tecnologias e Tópicos Abordados
+
 ⚡ Backend
 
 Spring Boot 3.4 + Java 21
