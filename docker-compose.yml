@@ -1,0 +1,22 @@
+networks:
+  api-network:
+    driver: bridge
+
+volumes:
+  postgres-vol:
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: postgres
+    restart: always
+    ports:
+      - "5432:5432"  # padrão do PostgreSQL
+    environment:
+      - POSTGRES_DB=rest_with_spring_boot_java
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin123
+    volumes:
+      - postgres-vol:/var/lib/postgresql/data
+    networks:
+      - api-network
