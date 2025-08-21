@@ -1,11 +1,11 @@
-🚀 Spring Boot do Zero à Nuvem (AWS & GCP)
+##🚀 Spring Boot do Zero à Nuvem (AWS & GCP)
 <p align="center"> <a href="#visão-geral">Visão Geral</a> • <a href="#tecnologias-e-tópicos-abordados">Tecnologias e Tópicos</a> • <a href="#backend">Backend</a> • <a href="#devops-e-cloud">DevOps & Cloud</a> • <a href="#testes">Testes</a> • <a href="#design-patterns">Design Patterns</a> </p>
-📖 Descrição
+###📖 Descrição
 
 Este projeto utiliza Spring Boot 3.4 com Java 21 e tem como objetivo ir além da criação de APIs simples:
 👉 Aqui o foco está em dominar o Spring Boot, compreendendo suas funcionalidades e aplicando boas práticas de mercado, escrevendo um código limpo, escalável e pronto para produção.
 
-🔎 Visão Geral
+##🔎 Visão Geral
 
 Aplicando as melhores práticas do ecossistema Java:
 
@@ -21,8 +21,8 @@ Qualidade e Testes → Testes unitários e de integração com JUnit 5, Mockito,
 
 Documentação Automatizada → Swagger (OpenAPI) para documentação clara e acessível.
 
-🛠️ Tecnologias e Tópicos Abordados
-⚡ Backend
+##🛠️ Tecnologias e Tópicos Abordados
+###⚡ Backend
 
 Spring Boot 3.4 + Java 21
 
@@ -38,7 +38,7 @@ Integração com ChatGPT
 
 Consumo de API com ReactJS
 
-☁️ DevOps & Cloud
+###☁️ DevOps & Cloud
 
 Docker & Docker Compose
 
@@ -50,7 +50,7 @@ Amazon AWS: RDS, ECR, ECS
 
 Google Cloud: SQL, Artifact Registry, Cloud Run, GKE
 
-✅ Testes
+###✅ Testes
 
 JUnit 5
 
@@ -60,7 +60,7 @@ REST Assured
 
 TestContainers
 
-🧩 Design Patterns
+###🧩 Design Patterns
 
 DTO
 
@@ -70,30 +70,11 @@ Factory
 
 Strategy
 
-📌 Estrutura do Projeto
-📂 spring-boot-cloud
- ├── 📂 src
- │    ├── 📂 main
- │    │    ├── 📂 java/.../app
- │    │    │    ├── controller
- │    │    │    ├── dto
- │    │    │    ├── entity
- │    │    │    ├── repository
- │    │    │    ├── service
- │    │    │    └── config
- │    │    └── 📂 resources
- │    │         ├── application.yml
- │    │         └── db/migration (Flyway)
- │    └── 📂 test
- │         └── ...
- ├── Dockerfile
- ├── docker-compose.yml
- └── README.md
 
-🚀 Deploy
+###🚀 Deploy
 
 Este projeto pode ser implantado tanto na Amazon AWS quanto no Google Cloud Platform (GCP), utilizando pipelines de CI/CD com GitHub Actions.
 
-📜 Licença
+###📜 Licença
 
 Este projeto é de uso livre para estudos e fins acadêmicos.
