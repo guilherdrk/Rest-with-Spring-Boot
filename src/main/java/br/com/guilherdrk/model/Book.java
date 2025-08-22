@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+import java.util.Date;
 import java.util.Objects;
 
 @Entity
@@ -17,7 +18,8 @@ public class Book {
     private String author;
 
     @Column(name = "launch_date", nullable = false )
-    private LocalDateTime launchDate;
+    @Temporal(TemporalType.DATE)
+    private Date launchDate;
     @Column(name = "price", nullable = false, precision = 65, scale = 2)
     private BigDecimal price;
     @Column(name = "title", nullable = false, columnDefinition = "LONGTEXT")
@@ -25,7 +27,7 @@ public class Book {
 
     public Book(){}
 
-    public Book(Long id, String author, LocalDateTime launchDate, BigDecimal price, String title) {
+    public Book(Long id, String author, Date launchDate, BigDecimal price, String title) {
         this.id = id;
         this.author = author;
         this.launchDate = launchDate;
@@ -49,11 +51,11 @@ public class Book {
         this.author = author;
     }
 
-    public LocalDateTime getLaunchDate() {
+    public Date getLaunchDate() {
         return launchDate;
     }
 
-    public void setLaunchDate(LocalDateTime launchDate) {
+    public void setLaunchDate(Date launchDate) {
         this.launchDate = launchDate;
     }
 
