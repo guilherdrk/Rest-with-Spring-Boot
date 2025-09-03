@@ -1,14 +1,10 @@
-    package br.com.guilherdrk.service;
+    package br.com.guilherdrk.unittests.service;
 
     import br.com.guilherdrk.data.dto.v1.BookDTO;
-    import br.com.guilherdrk.data.dto.v1.PersonDTO;
     import br.com.guilherdrk.exception.RequiredObjectIsNullExecption;
     import br.com.guilherdrk.model.Book;
-    import br.com.guilherdrk.model.Person;
     import br.com.guilherdrk.repositories.BookRepository;
-    import br.com.guilherdrk.repositories.PersonRepository;
-    import br.com.guilherdrk.unitetests.mapper.mocks.MockBook;
-    import br.com.guilherdrk.unitetests.mapper.mocks.MockPerson;
+    import br.com.guilherdrk.unittests.mapper.mocks.MockBook;
     import org.junit.jupiter.api.BeforeEach;
     import org.junit.jupiter.api.Test;
     import org.junit.jupiter.api.TestInstance;
@@ -19,7 +15,6 @@
     import org.mockito.junit.jupiter.MockitoExtension;
 
     import java.math.BigDecimal;
-    import java.util.Date;
     import java.util.List;
     import java.util.Optional;
 

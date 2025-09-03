@@ -1,4 +1,4 @@
-package br.com.guilherdrk.unitetests.mapper.mocks;
+package br.com.guilherdrk.unittests.mapper.mocks;
 
 import br.com.guilherdrk.data.dto.v1.BookDTO;
 import br.com.guilherdrk.data.dto.v1.PersonDTO;

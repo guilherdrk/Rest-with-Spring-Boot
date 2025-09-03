@@ -2,7 +2,7 @@ package br.com.guilherdrk.controller;
 
 import br.com.guilherdrk.controller.docs.BookControllerDocs;
 import br.com.guilherdrk.data.dto.v1.BookDTO;
-import br.com.guilherdrk.service.BookService;
+import br.com.guilherdrk.unittests.service.BookService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;

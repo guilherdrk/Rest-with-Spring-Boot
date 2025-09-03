@@ -1,4 +1,4 @@
-package br.com.guilherdrk.service;
+package br.com.guilherdrk.unittests.service;
 
 
 import br.com.guilherdrk.controller.PersonController;
