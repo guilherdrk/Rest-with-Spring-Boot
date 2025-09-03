@@ -1,9 +1,8 @@
 package br.com.guilherdrk.controller;
 
 import br.com.guilherdrk.controller.docs.PersonControllerDocs;
-import br.com.guilherdrk.data.dto.v1.BookDTO;
 import br.com.guilherdrk.data.dto.v1.PersonDTO;
-import br.com.guilherdrk.service.PersonService;
+import br.com.guilherdrk.unittests.service.PersonService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;

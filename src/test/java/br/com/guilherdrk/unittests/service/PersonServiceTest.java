@@ -1,10 +1,10 @@
-package br.com.guilherdrk.service;
+package br.com.guilherdrk.unittests.service;
 
 import br.com.guilherdrk.data.dto.v1.PersonDTO;
 import br.com.guilherdrk.exception.RequiredObjectIsNullExecption;
 import br.com.guilherdrk.model.Person;
 import br.com.guilherdrk.repositories.PersonRepository;
-import br.com.guilherdrk.unitetests.mapper.mocks.MockPerson;
+import br.com.guilherdrk.unittests.mapper.mocks.MockPerson;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
@@ -12,7 +12,6 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.mockito.internal.verification.NoInteractions;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.util.List;
